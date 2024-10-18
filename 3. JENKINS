@@ -24,61 +24,6 @@ CD: Continous Delivery/Continous Deployment
 Continous Delivery : Manual deployment of app to Prod
 Continous Deployment : Automation deployment of app to Prod
 
-1. Continuous Delivery (CD)
-Definition: Continuous Delivery is a software development practice where code changes are automatically prepared for a 
-release to production with some manual approach . It ensures that the software can be released reliably at any time.
-
-Process:
-
-Developers integrate their changes into a shared repository frequently.
-Automated tests run to ensure code quality.
-Once the code passes all tests, it is considered production-ready but is not automatically deployed to production.
-Deployment Control:
-
-The deployment to production is a manual decision. Teams can choose when to deploy based on business needs, customer 
-feedback, or other factors.
-Benefits:
-
-Reduces the risk of deployment failures by ensuring that the application is always in a releasable state.
-Allows for more flexibility in scheduling releases.
-
-
-2. Continuous Deployment
-
-Definition: Continuous Deployment takes Continuous Delivery a step further by automatically deploying every change that 
-passes all tests directly to production without manual intervention.
-
-Process:
-
-Similar to Continuous Delivery, developers integrate their changes frequently, and automated tests are run.
-If the changes pass all tests, they are automatically deployed to production.
-Deployment Control:
-
-There is no manual gate before deployment; every successful build is deployed automatically.
-Benefits:
-
-Speeds up the release process, allowing for rapid feedback from users.
-Encourages smaller, more frequent updates, which can reduce the risk of large-scale issues.
-
-Summary of Differences:
-
-Feature      |     Continuous Delivery	               |       Continuous Deployment
-             |                                         |
-Deployment-  |   Manual deployment to production	   |  Automatic deployment to production
-Frequency    |                                         |
-Release-     |   Team decides when to deploy	       |  No manual intervention; every change is deployed automatically
-Control      |                                         |  
-Purpose	     |   Ensure the software is always in 	   |  Enable rapid delivery and user feedback
-             |   a releasable state                    |
-Testing	     |   Automated tests run before deployment | Automated tests run before deployment, but deployment is automatic
-
-
-When to Use Each:
-Use Continuous Delivery: When your team wants control over release timing and prefers to evaluate changes before they go 
-live. This is often useful in industries where regulatory compliance or customer assurance is critical.
-
-Use Continuous Deployment: When you aim for rapid releases and want to respond quickly to user feedback, especially in 
-fast-paced environments like web applications or services where immediate updates are beneficial.
 
 Deployment: Process of installing application to App servers
 Ex: Tomcat, Nginx, WebSpeher, Glassfish, IIS
