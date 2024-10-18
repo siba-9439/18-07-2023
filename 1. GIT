@@ -274,13 +274,13 @@ Use git fetch when you want to see what changes are available in the remote repo
 branch or working directory. It’s a safe way to review updates.
 
 Summary of Differences
-Feature	      |            Git Fetch	                           |                        Git Pull
-              |                                                 |
-Functionality	|  Downloads changes but does not modify local    |  Downloads changes and merges them into the current 
-              |  branches.	                                     |  branch.
-Safety	       |  Safe to use; does not affect working directory	|  Can lead to merge conflicts if local changes exist
-Usage	        |  Ideal for reviewing changes before merging	    |  Ideal for quick updates to the current branch
-Command	      |  git fetch <remote>	                            |  git pull <remote> <branch>
+Feature	        |            Git Fetch	                             |                        Git Pull
+                |                                                   |
+Functionality	  |  Downloads changes but does not modify local      |  Downloads changes and merges them into the current 
+                |  branches.	                                       |  branch.
+Safety	         |  Safe to use; does not affect working directory	  |  Can lead to merge conflicts if local changes exist
+Usage	          |  Ideal for reviewing changes before merging	      |  Ideal for quick updates to the current branch
+Command	        |  git fetch <remote>	                              |  git pull <remote> <branch>
 
 
 HISTORY:
